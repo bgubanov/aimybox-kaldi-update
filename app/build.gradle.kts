@@ -66,4 +66,5 @@ dependencies {
     implementation("com.justai.aimybox:components:$componentsVersion")
     implementation("com.justai.aimybox:core:$aimyboxVersion")
     implementation("com.justai.aimybox:google-platform-speechkit:$aimyboxVersion")
+    implementation(project(":kaldi-speechkit"))
 }
